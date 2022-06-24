@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                      url('image/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 725px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  header .logo  img  {
+    height: 80px;
+  }
+  
+  header .navigation a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px 0;
+    text-transform: capitalize;
+  }
+  
+  header .navigation a.current {
+    border-bottom: 1px solid white;
+  }
+  
+  .elan {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 165px);
+    color: #ffffff;
+    padding: 0 70px;
+    width: 500px;
+  }
+  
+  .elan h1 {
+    font-size: 70px;
+  }
+  
+  .elan p {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  
+  .about {
+    width: 600px;
+    padding: 120px 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  section-title {
+    font-size: 40px;
+  }
+  
+  .contact {
+    padding: 120px 0;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                      url('image/coffee-beans.jpg');
+  }
+  
+  .form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form .label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .form .full-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form .full-name .form-group {
+    flex-basis: 49%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    margin: 10px 0;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .form-group input:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  
+  .form-group label,
+  .form-group input
+  {
+    text-align: left;
+    display: block;
+    width: 100%;
+  }
+
+  footer.footer{
+      text-align: center;
+      padding: 40px 0;
+  }
+
+  footer a {
+      color: #f0810f;
+  }
+
+  button{
+      padding: 20px 30px;
+      border: none;
+      cursor: pointer;
+      background-color: #f0810f;
+      color: #fff;
+  }
+
+  button:hover{
+      opacity: 0.7;
+  }
